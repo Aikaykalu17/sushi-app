@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.sushi-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+}
+
+.sushi-menu .sushi-menu-icons {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 100px;
+    height: 75%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    align-items: center;
+    border-radius: 15px;
+}
+
+.sushi-menu .sushi-menu-icons .first-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushi-menu .sushi-menu-icons .icon-first {
+    color: #F1D5BB;
+    font-family: mulish;
+    font-size: 3.564em;
+}
+
+.sushi-menu .sushi-menu-icons i {
+    color: #ffffff;
+    transform: scale(3);
+    display: block;
+    margin: 50px 0;
+}
+
+.sushi-menu .sushi-menu-icons .second-icon a {
+    text-decoration: none;
+}
+
+.sushi-menu .sushi-menu-icons .third-icon a {
+    text-decoration: none;
+}
+.sushi-menu .sushi-menu-icons .third-icon:active {
+    background-color: #f1d5bb;
+    color:black;
+    width: 100px;
+}
+
+.sushi-menu .sushi-menu-icons a {
+    display: block;
+}
+
+.sushi-menu .sushi-menu-icons .fourth-icon a {
+    text-decoration: none;
+}
+
+.sushi-menu .sushi-menu-icons .fifth-icon a {
+    text-decoration: none;
+}
+
+.sushi-menu .sushi-menu-icons .sixth-icon a {
+    text-decoration: none;
+}
+
+.sushi-menu .sushi-menu-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+.sushi-menu .sushi-menu-details .sushi-menu-details-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sushi-menu .sushi-menu-details .sushi-menu-details-text .food-text {
+    text-decoration: underline #f1d5bb 5px;
+    padding-bottom: 40px;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .first-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .first-menu .first-menu-text .text-first {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .second-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .second-menu .second-menu-text .text-second {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .third-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .third-menu .third-menu-text .text-third {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .fourth-menu {
+    padding-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .first-row-icons .fourth-menu .fourth-menu-text .text-fourth {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .second-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .second-menu .second-menu-text .text-second-first {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .second-second-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .second-second-menu .second-second-menu-text .text-second-second-first {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .third-menu {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .third-menu .third-menu-text .text-third-first {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .fourth-menu {
+    font-weight: 550;
+}
+
+.sushi-menu .sushi-menu-details .second-row-icons .fourth-menu .fourth-menu-text .text-fourth-first {
+    font-weight: 550;
+    text-align: center;
+}
+
+.sushi-menu .sushi-menu-details .last-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sushi-menu .sushi-menu-details .last-btn .btn {
+    color: #ffffff;
+    background-color: #000;
+    padding: 10px 19px;
+}
+.sushi-menu .sushi-menu-details .last-text{
+    margin-bottom: 50px;
+}
+.sushi-menu .sushi-menu-details .last-text .last-word{
+    font-weight: 550;
+    font-family: Mulish;
+}
+.sushi-menu .sushi-menu-icons i:active {
+    background-color: #F1D5BB;
+}
+.sushi-menu .sushi-menu-icons a:active{
+    background-color: #F1D5BB;
+}
+.sushi-menu-mobile{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sushi-menu {
+        display:none;
+    }
+    .sushi-menu-mobile{
+       max-width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sushi-menu-mobile .header{
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: #000;
+        width: 100%;
+        position: fixed;
+    }
+    .sushi-menu-mobile .header .icon-first{
+    color: #F1D5BB;
+    font-size: 4em;
+    }
+    .sushi-menu-mobile .header a{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        transform: scale(2);
+    }
+    .sushi-menu-mobile .header i{
+        text-decoration: none;
+    }
+    
+    .sushi-menu-mobile .sushi-menu-icons .first-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sushi-menu-mobile .sushi-menu-details {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sushi-menu-mobile .sushi-menu-details .sushi-menu-details-text {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .sushi-menu-mobile .sushi-menu-details .sushi-menu-details-text .food-text {
+        text-decoration: underline #f1d5bb 5px;
+        padding-bottom: 30px;
+    }
+    .sushi-menu-mobile .sushi-menu-details .first-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .sushi-menu-mobile .sushi-menu-details .first-row .first{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .first-row .second-menu{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .second-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .sushi-menu-mobile .sushi-menu-details .second-row .first{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .second-row .fourth-menu{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .third-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .sushi-menu-mobile .sushi-menu-details .third-row .first{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .third-row .second-second-menu{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .fourth-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .sushi-menu-mobile .sushi-menu-details .fourth-row .first{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .fourth-row .fourth-menu{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .second-row .fourth-menu .fourth-image{
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .last-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .sushi-menu-mobile .sushi-menu-details .last-btn .btn {
+        color: #ffffff;
+        background-color: #000;
+        padding: 10px 19px;
+    }
+    .sushi-menu-mobile .sushi-menu-details .last-text{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .sushi-menu-mobile .sushi-menu-details .last-text .last-word{
+        font-weight: 550;
+        font-family: Mulish;
+    }
+
+}

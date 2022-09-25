@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-container .sushi-home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: mulish;
+  font-size: 1.5em;
+  background-image: url(../images/sushi\ shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-container .sushi-home .sushi-left-icon {
+  display: flex;
+  margin: 0 90px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 90px;
+}
+
+.main-container .sushi-home .sushi-left-icon i {
+  color: white;
+  transform: scale(5);
+}
+
+.main-container .sushi-home .sushi-left-icon .first-href {
+  display: block;
+}
+
+.main-container .sushi-home .sushi-first-details {
+  display: flex;
+  flex-direction: column;
+  bottom: 90px;
+  position: relative;
+}
+
+.main-container .sushi-home .sushi-first-text {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container .sushi-home .sushi-first-details .sushi-first-text .first-text {
+  text-align: center;
+  font-family: Mulish;
+  color: white;
+  text-align: center;
+  font-size: 2.935em;
+  font-weight: 100;
+}
+
+.main-container .sushi-home .sushi-details-mobile {
+  display: none;
+}
+
+.main-container .sushi-home .sushi-first-details .sushi-second-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.main-container .sushi-home .sushi-first-details .sushi-second-text .second-text {
+  color: whitesmoke;
+  font-family: Mulish;
+  font-size: 1.253em;
+  line-height: 31.38px;
+}
+
+.main-container .sushi-home .sushi-first-details .sushi-first-text .first-span {
+  font-weight: 1000;
+}
+
+.main-container .sushi-home .sushi-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-container .sushi-home .sushi-btn .first-button {
+  padding: 20px 80px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.334em;
+}
+
+.main-container .sushi-home .sushi-btn .second-button {
+  padding: 20px 80px;
+  cursor: pointer;
+  font-size: 1.334em;
+}
+
+.main-container .sushi-home .sushi-right-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 90px;
+  position: relative;
+  bottom: 90px;
+}
+
+.main-container .sushi-home .sushi-right-icon i {
+  color: #ffffff;
+  transform: scale(5);
+}
+
+.main-container .sushi-home .sushi-right-icon a {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-container .sushi-home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/sushi\ shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-container .sushi-home .sushi-left-icon {
+    display: none;
+  }
+
+  .main-container .sushi-home .sushi-left-icon i {
+    color: white;
+    transform: scale(5);
+  }
+
+  .main-container .sushi-home .sushi-left-icon .first-href {
+    display: block;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .main-container .sushi-home .sushi-first-details {
+    display: none;
+  }
+
+  .main-container .sushi-home .sushi-first-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sushi-first-text .first-text {
+    font-family: Mulish;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 100;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sushi-second-text {
+    font-size: large;
+    text-align: center;
+    line-height: 2;
+    margin-top: 5px;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sushi-second-text .second-text {
+    color: whitesmoke;
+    font-family: Mulish;
+    font-size: 1em;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sushi-first-text .first-span {
+    font-weight: 1000;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sushi-second-text {
+    margin-bottom: 10px;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .buttons a {
+    display: block;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .buttons .btn {
+    height: 50px;
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: small;
+    cursor: pointer;
+    border: none;
+    font-family: mulish;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .buttons .btn:hover {
+    transition: 2s ease-in-out;
+    background-color: black;
+    color: #ffffff;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sec-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sec-btn .btn {
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 180px;
+    border: none;
+    font-size: small;
+    font-family: mulish;
+  }
+
+  .main-container .sushi-home .sushi-details-mobile .sec-btn .btn:hover {
+    transition: 2s ease-in-out;
+    background-color: black;
+    color: #ffffff;
+  }
+
+  .main-container .sushi-home .sushi-right-icon {
+    display: none;
+  }
+
+  .main-container .sushi-home .sushi-right-icon i {
+    color: #ffffff;
+    transform: scale(1);
+  }
+
+  .main-container .sushi-home .sushi-right-icon a {
+    display: block;
+  }
+}
